@@ -1,2 +1,3 @@
-# nids
-Adaptive summarization of evidence to support cost-effective intrusion detection at scale
+# Adaptive summarization of evidence to support cost-effective intrusion detection at scale
+
+We have recently seen an increasing number of attacks that are distributed, and span an entire wide area network (WAN). Today, typically, intrusion detection systems (IDSs) are deployed at enterprise scale and cannot handle attacks that cover a WAN. Moreover, such IDSs are implemented at a single entity that expects to look at all packets to determine an intrusion. Transferring copies of raw packets to centralized engines for analysis in a WAN can significantly impact both network performance and detection accuracy. In this project, we propose to build a framework for adaptive summarization of evidence to support cost-effective intrusion detection at scale.
